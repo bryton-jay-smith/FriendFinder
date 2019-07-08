@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 const friends = require('./app/data/friends.js');
 
 require("./app/routing/apiroutes.js")(app);
-require("./app/routing/htmlRoutes.js")(app);
+require("./app/routing/htmlroutes.js")(app);
 
 app.listen(PORT, function() {
     console.log("FriendFinder listening on PORT " + PORT);
